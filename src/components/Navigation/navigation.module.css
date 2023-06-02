@@ -1,0 +1,14 @@
+.navigationList {
+  display: flex;
+  gap: 40px;
+  margin: 0;
+  padding: 10px;
+}
+.navigationItem {
+  text-decoration: none;
+  font-size: 23px;
+  line-height: 25px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #ebd8ff;
+}
