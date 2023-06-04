@@ -5,7 +5,7 @@ const Navigation = () => {
   return (
     <nav className={s.navigation}>
       <ul className={s.navigationList}>
-        <li>
+        <li className={s.navigationListItem}>
           <NavLink className={s.navigationItem} to="/">
             Home
           </NavLink>

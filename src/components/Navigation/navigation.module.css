@@ -1,14 +1,22 @@
 .navigationList {
   display: flex;
-  gap: 40px;
-  margin: 0;
-  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  max-width: 200px;
+  justify-content: space-between;
+  align-items: center;
 }
 .navigationItem {
   text-decoration: none;
   font-size: 23px;
-  line-height: 25px;
-  font-family: "Montserrat", sans-serif;
+  line-height: 1.2;
   font-weight: 500;
   color: #ebd8ff;
+}
+.navigationListItem:not(:last-child) {
+  margin-right: 15px;
+}
+
+.navigationItem:global(.active) {
+  text-decoration: underline;
 }

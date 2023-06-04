@@ -1,0 +1,23 @@
+.userList {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .userList {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .userList {
+    gap: 48px;
+    margin-bottom: 60px;
+  }
+}

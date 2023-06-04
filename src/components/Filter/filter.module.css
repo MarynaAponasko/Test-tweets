@@ -1,0 +1,20 @@
+.filterMain {
+  background: #ebd8ff;
+  box-shadow: 0px 10px 20px rgba(51, 50, 50, 0.25);
+  border-radius: 10px;
+  border-color: transparent;
+  padding: 7px 20px;
+  color: #373737;
+  text-transform: uppercase;
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+  display: block;
+  margin: 15px auto 20px;
+  transition: scale 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    scale: 1.07;
+  }
+}
