@@ -11,7 +11,8 @@ const BackButton = () => {
         navigate("/");
       }}
     >
-      <FcPrevious /> go back
+      <FcPrevious />
+      back
     </button>
   );
 };
